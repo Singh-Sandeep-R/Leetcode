@@ -1,16 +1,18 @@
 class Solution:
     def fib(self, n: int) -> int:
         if n==0:
-            return (0)
+            fi = 0
+            return fi
         if n==1:
-            return(1)
-        def fibon(n):
-            if n==0:
-                return (0)
-            if n==1:
-                return (1)
-            
-            fib_n = fibon(n-1) + fibon(n-2)
-            return (fib_n)
-        return(fibon(n))
+            fi =1
+            return fi
+        fib_n = self.fib(n-1) + self.fib(n-2)
+        return (fib_n)
+#         a=[]
+#         a.append(0)
+#         a.append(1)
+
+#         for i in range(2,n+1):
+#             a.append(a[n-1]+a[n-2])
+#         return(a[n])
         
