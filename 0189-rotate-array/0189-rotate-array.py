@@ -4,18 +4,13 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         
-        n=len(nums)
-        if n>1:
-            k = k%n
-            temp = nums[-k:]
-            # print(temp)
-            i=n-1-k
-            if len(temp)<n:
-                while(i>=0):
-                    nums[i+k] =nums[i]
-                    # print(f"for {i}th",a)
-                    i=i-1
-                nums[:k]= temp
+        if k == 0:
+            return
+
+        size = len(nums)
+        k = k if k <= size else k % size
+
+        nums[k:], nums[:k] = nums[:size - k], nums[size - k:]
                 
 
         
