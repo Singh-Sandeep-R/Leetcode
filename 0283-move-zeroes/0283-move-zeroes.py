@@ -3,10 +3,17 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        c= 0
+        j = -1
         for i in range(len(nums)):
-            if 0 in nums :
-                nums.remove(0)
-                c+=1
-        for j in range(c):
-            nums.append(0)
+            if nums[i]==0:
+                j=i
+                break
+        if j==-1:
+            return
+        else:
+            for i in range(j+1,len(nums)):
+                if nums[i]!=0:
+                    nums[j] = nums[i]
+                    nums[i]=0
+                    j=j+1
+                
