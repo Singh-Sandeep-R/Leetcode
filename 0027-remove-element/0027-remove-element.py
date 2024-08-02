@@ -22,8 +22,8 @@ class Solution:
         # return count
         
         c= 0
-        for i, v in enumerate(nums):
-            if v==val :
+        for i in range(len(nums)):
+            if nums[i]==val :
                 nums[i] = 0
                 c=c+1
         l = len(nums)
