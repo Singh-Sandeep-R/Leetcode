@@ -8,19 +8,11 @@ class Solution:
          "D":500,
          "M":1000}
         count = 0
-        point = 0
-        while (point<len(s)):
-            print(point)
-            if (point<len(s)-1) and (roman[s[point]]>=roman[s[point+1]]):
-                count += roman[s[point]]
-                point = point+1
-            elif (point==len(s)-1):
-                count+=roman[s[point]]
-                break 
-
+        for i in range(len(s)-1,-1,-1):
+            if (i<len(s)-1) and (roman[s[i]]<roman[s[i+1]]):
+                count = count -roman[s[i]]
             else :
-                count = count + roman[s[point+1]]-roman[s[point]]
-                point = point+2
+                count = count + roman[s[i]]
         return count
         
         
