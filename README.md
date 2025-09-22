@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0014-longest-common-prefix) |
@@ -57,4 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Singh-Sandeep-R/Leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
